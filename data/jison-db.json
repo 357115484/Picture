@@ -1,0 +1,32 @@
+{
+  "title": "内蒙古电力集团文化展厅中控系统",
+  "brand": "INNER MONGOLIA POWER GROUP",
+  "clock": "2025-05-20 14:25:36",
+  "overview": { "totalDevices": 128, "onlineRate": "98.6%" },
+  "leftMenu": ["总览中控", "灯光控制", "音频控制", "视频控制", "环境监测", "客流统计", "设备管理", "告警管理", "能耗管理"],
+  "areas": ["序厅", "历史沿革", "奋进之路", "展望未来", "CAVE区", "机房"],
+  "rightStats": [
+    { "label": "温度", "value": "23.6 ℃" },
+    { "label": "湿度", "value": "48.6 %RH" },
+    { "label": "PM2.5", "value": "12 μg/m³" },
+    { "label": "CO₂", "value": "420 ppm" }
+  ],
+  "zones": [
+    { "name": "CAVE数字沙盘区", "x": 8, "y": 18, "w": 23, "h": 42, "color": "rgba(28,120,216,.36)" },
+    { "name": "安全生产", "x": 31, "y": 36, "w": 16, "h": 26, "color": "rgba(203,153,52,.36)" },
+    { "name": "乡村振兴", "x": 46, "y": 33, "w": 19, "h": 20, "color": "rgba(50,169,116,.35)" },
+    { "name": "合作交流", "x": 64, "y": 22, "w": 14, "h": 17, "color": "rgba(214,92,92,.35)" },
+    { "name": "绿色印象", "x": 60, "y": 58, "w": 20, "h": 20, "color": "rgba(45,159,102,.35)" }
+  ],
+  "route": [
+    "序厅", "历史沿革", "奋进之路", "企业概况", "电网建设", "光荣历程", "展望未来", "CAVE区"
+  ],
+  "actions": [
+    { "title": "一键开馆", "desc": "开启所有系统", "warn": false },
+    { "title": "一键讲解", "desc": "启动讲解模式", "warn": false },
+    { "title": "一键投屏", "desc": "开启投屏模式", "warn": false },
+    { "title": "一键巡检", "desc": "启动巡检任务", "warn": false },
+    { "title": "一键闭馆", "desc": "关闭所有系统", "warn": true }
+  ],
+  "mapImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80"
+}
